@@ -1,1 +1,1 @@
-![image](./image.png =500x100)
+![image|1024x214, 50%](./image.png)

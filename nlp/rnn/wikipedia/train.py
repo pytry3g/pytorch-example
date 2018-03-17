@@ -80,5 +80,5 @@ for epoch in range(n_epochs):
 # FloydHubを使うなら
 #model_name = "/output/example_gpu.model" if USE_CUDA else "/output/example.model"
 # FloydHubを使わないとき
-model_name = "example_gpu.model" if USE_CUDA else "/output/example.model"
+model_name = "example_gpu.model" if USE_CUDA else "example.model"
 torch.save(model.state_dict(), model_name)
